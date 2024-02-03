@@ -1,0 +1,350 @@
+{
+  "contractName": "MadicalData",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/medichin.sol\":\"MadicalData\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/medichin.sol\":{\"keccak256\":\"0xe902009e7d7f361c0779e2d2e99f0a8afa7e7520710649f82c9b178e7db423eb\",\"urls\":[\"bzz-raw://56760f696a4bed88c6eac1b48ff1533243d4e322811fdae1a02792ad2d072740\",\"dweb:/ipfs/QmeEpnU2bosM3h9mgf54y3oWF6KRKGUKx8p5dg4GD8ZoFw\"]}},\"version\":1}",
+  "bytecode": "0x608060405260008054600160a060020a0319163317905534801561002257600080fd5b5060c7806100316000396000f3fe6080604052348015600f57600080fd5b50600436106044577c010000000000000000000000000000000000000000000000000000000060003504638da5cb5b81146049575b600080fd5b60005460689073ffffffffffffffffffffffffffffffffffffffff1681565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f3fea2646970667358221220178d9f106848631ab7247fd271fad11bdccb8dcce0ced664c1588d68fbff771764736f6c63430008150033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b50600436106044577c010000000000000000000000000000000000000000000000000000000060003504638da5cb5b81146049575b600080fd5b60005460689073ffffffffffffffffffffffffffffffffffffffff1681565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f3fea2646970667358221220178d9f106848631ab7247fd271fad11bdccb8dcce0ced664c1588d68fbff771764736f6c63430008150033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [
+    {
+      "ast": {
+        "nativeSrc": "0:242:2",
+        "nodeType": "YulBlock",
+        "src": "0:242:2",
+        "statements": [
+          {
+            "nativeSrc": "6:3:2",
+            "nodeType": "YulBlock",
+            "src": "6:3:2",
+            "statements": []
+          },
+          {
+            "body": {
+              "nativeSrc": "115:125:2",
+              "nodeType": "YulBlock",
+              "src": "115:125:2",
+              "statements": [
+                {
+                  "nativeSrc": "125:26:2",
+                  "nodeType": "YulAssignment",
+                  "src": "125:26:2",
+                  "value": {
+                    "arguments": [
+                      {
+                        "name": "headStart",
+                        "nativeSrc": "137:9:2",
+                        "nodeType": "YulIdentifier",
+                        "src": "137:9:2"
+                      },
+                      {
+                        "kind": "number",
+                        "nativeSrc": "148:2:2",
+                        "nodeType": "YulLiteral",
+                        "src": "148:2:2",
+                        "type": "",
+                        "value": "32"
+                      }
+                    ],
+                    "functionName": {
+                      "name": "add",
+                      "nativeSrc": "133:3:2",
+                      "nodeType": "YulIdentifier",
+                      "src": "133:3:2"
+                    },
+                    "nativeSrc": "133:18:2",
+                    "nodeType": "YulFunctionCall",
+                    "src": "133:18:2"
+                  },
+                  "variableNames": [
+                    {
+                      "name": "tail",
+                      "nativeSrc": "125:4:2",
+                      "nodeType": "YulIdentifier",
+                      "src": "125:4:2"
+                    }
+                  ]
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "name": "headStart",
+                        "nativeSrc": "167:9:2",
+                        "nodeType": "YulIdentifier",
+                        "src": "167:9:2"
+                      },
+                      {
+                        "arguments": [
+                          {
+                            "name": "value0",
+                            "nativeSrc": "182:6:2",
+                            "nodeType": "YulIdentifier",
+                            "src": "182:6:2"
+                          },
+                          {
+                            "kind": "number",
+                            "nativeSrc": "190:42:2",
+                            "nodeType": "YulLiteral",
+                            "src": "190:42:2",
+                            "type": "",
+                            "value": "0xffffffffffffffffffffffffffffffffffffffff"
+                          }
+                        ],
+                        "functionName": {
+                          "name": "and",
+                          "nativeSrc": "178:3:2",
+                          "nodeType": "YulIdentifier",
+                          "src": "178:3:2"
+                        },
+                        "nativeSrc": "178:55:2",
+                        "nodeType": "YulFunctionCall",
+                        "src": "178:55:2"
+                      }
+                    ],
+                    "functionName": {
+                      "name": "mstore",
+                      "nativeSrc": "160:6:2",
+                      "nodeType": "YulIdentifier",
+                      "src": "160:6:2"
+                    },
+                    "nativeSrc": "160:74:2",
+                    "nodeType": "YulFunctionCall",
+                    "src": "160:74:2"
+                  },
+                  "nativeSrc": "160:74:2",
+                  "nodeType": "YulExpressionStatement",
+                  "src": "160:74:2"
+                }
+              ]
+            },
+            "name": "abi_encode_tuple_t_address__to_t_address__fromStack_reversed",
+            "nativeSrc": "14:226:2",
+            "nodeType": "YulFunctionDefinition",
+            "parameters": [
+              {
+                "name": "headStart",
+                "nativeSrc": "84:9:2",
+                "nodeType": "YulTypedName",
+                "src": "84:9:2",
+                "type": ""
+              },
+              {
+                "name": "value0",
+                "nativeSrc": "95:6:2",
+                "nodeType": "YulTypedName",
+                "src": "95:6:2",
+                "type": ""
+              }
+            ],
+            "returnVariables": [
+              {
+                "name": "tail",
+                "nativeSrc": "106:4:2",
+                "nodeType": "YulTypedName",
+                "src": "106:4:2",
+                "type": ""
+              }
+            ],
+            "src": "14:226:2"
+          }
+        ]
+      },
+      "contents": "{\n    { }\n    function abi_encode_tuple_t_address__to_t_address__fromStack_reversed(headStart, value0) -> tail\n    {\n        tail := add(headStart, 32)\n        mstore(headStart, and(value0, 0xffffffffffffffffffffffffffffffffffffffff))\n    }\n}",
+      "id": 2,
+      "language": "Yul",
+      "name": "#utility.yul"
+    }
+  ],
+  "sourceMap": "69:72:0:-:0;;;97:33;;;-1:-1:-1;;;;;;97:33:0;120:10;97:33;;;69:72;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "69:72:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;97:33;;;;;;;;;;;;190:42:2;178:55;;;160:74;;148:2;133:18;97:33:0;;;;;;",
+  "source": "pragma solidity ^0.8.0;\r\n\r\n uint256 constant TotalTickets =10 ;\r\n\r\n\r\ncontract MadicalData {\r\n    address public owner = msg.sender;\r\n\r\n   \r\n}\r\n",
+  "sourcePath": "C:\\Users\\manua\\OneDrive\\Desktop\\hackthon\\truffle\\contracts\\medichin.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/medichin.sol",
+    "exportedSymbols": {
+      "MadicalData": [
+        9
+      ],
+      "TotalTickets": [
+        4
+      ]
+    },
+    "id": 10,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "constant": true,
+        "id": 4,
+        "mutability": "constant",
+        "name": "TotalTickets",
+        "nameLocation": "45:12:0",
+        "nodeType": "VariableDeclaration",
+        "scope": 10,
+        "src": "28:33:0",
+        "stateVariable": false,
+        "storageLocation": "default",
+        "typeDescriptions": {
+          "typeIdentifier": "t_uint256",
+          "typeString": "uint256"
+        },
+        "typeName": {
+          "id": 2,
+          "name": "uint256",
+          "nodeType": "ElementaryTypeName",
+          "src": "28:7:0",
+          "typeDescriptions": {
+            "typeIdentifier": "t_uint256",
+            "typeString": "uint256"
+          }
+        },
+        "value": {
+          "hexValue": "3130",
+          "id": 3,
+          "isConstant": false,
+          "isLValue": false,
+          "isPure": true,
+          "kind": "number",
+          "lValueRequested": false,
+          "nodeType": "Literal",
+          "src": "59:2:0",
+          "typeDescriptions": {
+            "typeIdentifier": "t_rational_10_by_1",
+            "typeString": "int_const 10"
+          },
+          "value": "10"
+        },
+        "visibility": "internal"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MadicalData",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 9,
+        "linearizedBaseContracts": [
+          9
+        ],
+        "name": "MadicalData",
+        "nameLocation": "78:11:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "functionSelector": "8da5cb5b",
+            "id": 8,
+            "mutability": "mutable",
+            "name": "owner",
+            "nameLocation": "112:5:0",
+            "nodeType": "VariableDeclaration",
+            "scope": 9,
+            "src": "97:33:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 5,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "97:7:0",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "expression": {
+                "id": 6,
+                "name": "msg",
+                "nodeType": "Identifier",
+                "overloadedDeclarations": [],
+                "referencedDeclaration": 4294967281,
+                "src": "120:3:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_magic_message",
+                  "typeString": "msg"
+                }
+              },
+              "id": 7,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": false,
+              "lValueRequested": false,
+              "memberLocation": "124:6:0",
+              "memberName": "sender",
+              "nodeType": "MemberAccess",
+              "src": "120:10:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 10,
+        "src": "69:72:0",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "0:143:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.21+commit.d9974bed.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x2511db598f2E4308Ab962599d6856179c8932e84",
+      "transactionHash": "0x0e2b687bd8a9336c918c4388f3acbb592bd7c77137523c66aa6f9fa1e50e22f1"
+    }
+  },
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-02-02T22:58:04.752Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
